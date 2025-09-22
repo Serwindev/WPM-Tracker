@@ -29,12 +29,12 @@ Test your typing speed and accuracy with quirky, developer-themed sentences.
    cd wpm-tracker
 
 2. Install dependencies:
-
-npm install
+    ```bash
+    npm install
 
 3. Start the app:
-
-npm start
+    ```bash
+    npm start
 
 ---
 
