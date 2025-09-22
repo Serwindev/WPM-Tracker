@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="font.css">
+    <script type="text/javascript" src="./index.js" defer></script>
+    <title>WPM Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">WPM tester ⌨</h1>
+      <h2 class="statement">Type the following sentence: <br>
+        "<>"
+      </h2>
+        <div class="input-box">
+          <textarea id="text-input" type="text" placeholder="Type to start..."></textarea>
+        </div>
+        <button id="submit">Done!</button>
+
+        <div class="score">
+          <h3>WPM: <span id="wpm">0</span></h3>
+          <h3>Accuracy: <span id="accuracy">0</span>%</h3>
+        </div>
+        <input type="image" src="../resource/restart-btn.png" id="restart">
+        <div class="credits">
+          Dev-ed by Serwin
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+
+*{
+    padding: 0;
+}
+
+body {
+    background-image: url('../resource/bg.png');
+    font-family: pixelify;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+/* Animations */
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.title {
+    font-size: 45px;
+    margin: 10px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.statement {
+    text-align: center;
+    margin: 10px;
+}
+
+.input-box {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+#text-input {
+    height: 60px;
+    background: none;
+    border-radius: 10px;
+    font-family: pixelify;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+#submit {
+    background: none;
+    height: 30px;
+    border-radius: 10px;
+    width: 100px;
+    font-family: pixelify;
+    font-size: 15px;
+    animation: ease-in-out;
+}
+
+#submit:hover {
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 30px;
+    gap: 80px;
+}
+
+.credits {
+    position: absolute;
+    bottom: 20px;
+    color: black;
+}
+
+#restart {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
