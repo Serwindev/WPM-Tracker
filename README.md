@@ -21,6 +21,13 @@ Test your typing speed and accuracy with quirky, developer-themed sentences.
 
 ---
 
+## 📦 Tech Stack
+- **Electron.js** → app wrapper.
+
+- **HTML + CSS** → structure & design.
+
+- **JavaScript** → logic (WPM/accuracy calculation, sentence selection).
+
 ## 🛠️ Installation
 
 1. Clone this repo:
