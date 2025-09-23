@@ -34,7 +34,7 @@ Test your typing speed and accuracy with quirky, developer-themed sentences.
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/wpm-tracker.git
+   git clone https://github.com/Serwindev/WPM-Tracker.git
    cd wpm-tracker
 
 2. Install dependencies:
